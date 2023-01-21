@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:coral;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight:bolder;
+}
+
+/* .outerBox{
+    display: flex;
+} */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 64vh;
+    width: 100vw;
+}
+
+.inputs{
+height: 54px;
+width: 200px;
+margin: 20px;
+text-align: center;
+cursor: pointer;
+font-family: 'Ubuntu', sans-serif;
+border-radius: 5px;
+font-size: 1rem;
+}
+
+.submit{
+    height: 32px;
+    width: 184px;
+    margin-top: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+}
+
+
+.outcome{
+text-align: center;
+position: relative;
+margin-top: 25px;
+z-index:-1;
+font-weight: bolder;
+}
+
+.outcome1{
+    text-align: center;
+    position: relative;
+    z-index:-1;
+    margin-top: 10px;
+    font-weight: bolder;
+    }
+    
+
+.sticker{
+    height: 166px;
+    position: relative;
+    right: 33%;
+    top: 45%;
+}
+
+footer{
+    text-align: center;
+padding-top: 6%;
+}
+
+
+@media (max-width:500px){
+    .sticker{
+         height: 166px;
+        position: unset;
+        margin-bottom: 10px;
+
+    }
+    footer{
+        padding-top: 20%;
+    }
+
+}
