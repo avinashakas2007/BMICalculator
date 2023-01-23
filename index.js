@@ -3,7 +3,7 @@ var heightin="";
 var bmi;
 
 function BMI(weightin,heightin){
-bmi=weightin/Math.pow(heightin,2);
+bmi=eval(weightin/Math.pow(heightin,2));
 bmi=bmi.toFixed(2);
 gif(bmi);
 print(bmi);
