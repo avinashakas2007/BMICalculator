@@ -81,5 +81,3 @@ If you enjoyed this project, don't forget to give it a ⭐ on [GitHub](https://g
 
 ---
 ```
-
-You can now copy and paste this **README.md** directly into your project!
